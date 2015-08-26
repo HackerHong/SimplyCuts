@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Bold.otf');
+}
+
+*{
+  font-family: "Proxima Nova", sans-serif;
+}
+
 h1 {
   text-align: center;
 }
@@ -18,9 +27,46 @@ footer p {
   text-align: left;
 }
 
+/****
+NAVIGATION STYLING
+***/
+
 nav {
   text-align: center;
 }
+
+nav a.selected, nav a:hover {
+  color: #004d4d;
+}
+
+nav a, nav a:visited {
+  color: #638ca6;
+  text-decoration: none;
+}
+
+nav {
+  text-align: center;
+  padding: 10px 0 0 0;
+  margin: 15px 0 0;
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav a{
+  font-weight: 400;
+  padding: 15px 10px;
+}
+
+nav ul li a{
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
 
 hr {
    display: block;
