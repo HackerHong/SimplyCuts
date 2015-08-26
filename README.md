@@ -1,4 +1,4 @@
-SimplyCuts Web Development Project
+Simply Cuts Web Development Project
 
 Owner: Francis Hong
 
