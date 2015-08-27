@@ -39,13 +39,6 @@ nav {
   text-align: center;
 }
 
-<<<<<<< HEAD
-nav a.selected, nav a:hover {
-  color: #FFF;
-}
-
-=======
->>>>>>> origin/master
 nav a, nav a:visited {
   color: #638ca6;
   text-decoration: none;
