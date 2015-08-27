@@ -39,10 +39,6 @@ nav {
   text-align: center;
 }
 
-nav a.selected, nav a:hover {
-  color: #FFF;
-}
-
 nav a, nav a:visited {
   color: #638ca6;
   text-decoration: none;
