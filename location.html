@@ -7,6 +7,8 @@
     <meta name="author" content="Francis Hong">
     <title>Simply Cuts</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="scripts/map.js"></script>
   </head>
   <body>
     <header>
@@ -19,9 +21,39 @@
       </nav>
     </header>
     <hr>
-
-
-
+    <div class="main_content">
+      <div class="left_content">
+        <h3>Location</h3>
+        <p>Simply Cuts</p>
+        <p>2335 Chestnut Street</p>
+        <p>San Francisco, CA 94123</p>
+        <br>
+        <div id="business">
+          <p>Business Hours</p>
+          <div id="business_days">
+            <p>Monday</p>
+            <p>Tuesday</p>
+            <p>Wednesday</p>
+            <p>Thursday</p>
+            <p>Friday</p>
+            <p>Saturday</p>
+            <p>Sunday</p>
+          </div>
+          <div id="business_times">
+            <p>9:00 AM - 8:00 PM</p>
+            <p>9:00 AM - 8:00 PM</p>
+            <p>9:00 AM - 8:00 PM</p>
+            <p>9:00 AM - 8:00 PM</p>
+            <p>9:00 AM - 8:00 PM</p>
+            <p>9:00 AM - 7:00 PM</p>
+            <p>10:00 AM - 6:00 PM</p>
+          </div>
+        </div>
+      </div>
+      <div class="right_content">
+        <div id="map"></div>
+      </div>
+    </div>
     <hr>
     <footer>
       <h6>&copy; 2015 Simply Cuts</h6>
