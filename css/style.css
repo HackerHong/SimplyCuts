@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('../fonts/ProximaNova-Bold.otf');
+  src: url('../fonts/Proxima\ Nova/ProximaNova-Bold.otf');
 }
 
 *{
@@ -35,13 +35,13 @@ nav {
   text-align: center;
 }
 
-nav a.selected, nav a:hover {
-  color: #004d4d;
-}
-
 nav a, nav a:visited {
   color: #638ca6;
   text-decoration: none;
+}
+
+nav a.selected, nav a:hover {
+  color: #004d4d;
 }
 
 nav {
